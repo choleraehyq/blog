@@ -1,0 +1,52 @@
+baseURL = "http://cholerae.com"
+languageCode = "zh-cn"
+title = "Cholerae's blog"
+theme = "hugo-redlounge"
+disqusShortname = "cholerae"
+permalinks = "/:year/:month/:day/:filename"
+Paginate = 10
+PaginatePath  = "page"
+canonifyurls = true
+PygmentsCodeFences=true
+publishDir = "public"
+
+[params]
+	sidebartitle = "Cholerae's blog"
+	sidebartagline = "Cholerae Hu"
+	gaid = "UA-111656636-1"
+	totop = true
+	highlightstyle="mono-blue"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/posts"
+
+[[menu.social]] 
+    pre = "<i class='fa fa-mail-forward'></i>" 
+    url = "mailto:choleraehyq@gmail.com" 
+    identifier = "mail-forward"
+    weight = 100
+
+[[menu.social]]
+	pre = "<i class='fa fa-linkedin'></i>"
+    url = "https://www.linkedin.com/in/yingqian-hu-b09862b8/"
+    identifier = "linkedin"
+
+[[menu.social]] 
+    pre = "<i class='fa fa-github'></i>" 
+    url = "https://github.com/lucumt" 
+    identifier = "github"
+
+[[menu.social]] 
+    pre = "<i class='fa fa-twitter'></i>" 
+    url = "https://twitter.com/choleraehyq" 
+    identifier = "twitter"
+    weight = -7
+
+[[menu.site]]
+    name = "LightGHLi 的博客"
+    url = "http://lightghli.com"
+
+[[menu.site]]
+    name = "ZIOKUROI 的博客"
+    url = "https://blog.zuimoe.net/"
