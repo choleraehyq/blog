@@ -34,7 +34,7 @@ publishDir = "public"
 
 [[menu.social]] 
     pre = "<i class='fa fa-github'></i>" 
-    url = "https://github.com/lucumt" 
+    url = "https://github.com/choleraehyq"
     identifier = "github"
 
 [[menu.social]] 

@@ -1,1 +1,1 @@
-hugo server --renderToDisk to generate public directory.
+hugo server --renderToDisk --baseUrl=http://choleraehyq.github.io --appendPort=false
